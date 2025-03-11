@@ -1,7 +1,9 @@
 const assert= require("assert");
+const Student = require("../src/student");
 
 describe("Create the first data",()=>{
-    it("save the student",()=>{
-        assert(2 + 4 == 5)
+    it("Save the student",()=>{
+        const jason=new Student({name:"Json"});
+        jason.save()
     })
 })
