@@ -7,3 +7,8 @@ mongoose.connection
         .on("error",(error)=>{
             console.warn("An error occured",error)
         })
+
+beforeEach((done)=>{
+    mongoose.connection.collections.students.drop();//to clean up database
+    done()//to clean up database
+})

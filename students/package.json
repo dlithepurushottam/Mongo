@@ -7,7 +7,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nodemon --exec mocha -R min" 
   },
   "dependencies": {
     "mocha": "^11.1.0",
