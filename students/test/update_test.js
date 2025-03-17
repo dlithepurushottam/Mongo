@@ -40,5 +40,4 @@ describe('Updating records', function () {
         assert(res[0].grade === 50)
         console.log(res)
     })
-
 });
