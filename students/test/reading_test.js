@@ -1,4 +1,4 @@
- const assert=require("assert");
+const assert=require("assert");
 const Student=require("../src/student");
 
 describe("Read the data",()=>{
